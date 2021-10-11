@@ -5,3 +5,13 @@ exit
 runMain Test
 runMain Lab5.Ex1
 exit
+runMain Test
+runMain lab2ex1.Clothes
+sbt
+runMain Test
+runMain lab2ex1.Chlotes
+runMain Test
+runMain lab2ex1
+runMain lab2ex1.Clothes
+runMain lab2ex1.Test
+runMain lab2ex1.Clothes
