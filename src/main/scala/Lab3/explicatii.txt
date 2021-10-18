@@ -1,0 +1,8 @@
+Ex 2:
+In ceea ce priveste partea pe care persoana se trezeste, probabilitatea acesteia e mai mica decat cea a vremii.
+Avem valori echiprobabile, astfel probabilitatea trezirii pe partea stanga e 0.5.
+Deoarece pentru partea stanga avema doar "Oh no , not again!" probabilitatea acesteia va fi acceasi cu probabilitatea de trezire pe partea stanga.
+
+Ex 3:
+a) Produce true => 1 
+b) Produce false => 0.52

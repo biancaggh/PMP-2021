@@ -4,7 +4,7 @@
 		module="pmp-2021-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20211004124215"
+		publication="20211018123916"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
