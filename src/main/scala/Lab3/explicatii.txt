@@ -6,3 +6,25 @@ Deoarece pentru partea stanga avema doar "Oh no , not again!" probabilitatea ace
 Ex 3:
 a) Produce true => 1 
 b) Produce false => 0.52
+
+Ex 4:
+Cu cresterea numarului de zaruri creste si probabilitatea de a avea suma valorilor = 11
+Daca avem doar 2 zaruri seturile posibile vor fi (5,6) si (6,5) => p=2/36 = 0.0(5)
+Astfel pentru 3 zaruri probabilitatea va fi 0.125
+
+Ex 5:
+Probabilitatea ca suma sa fie mai mica decat 9 este de 0.6
+Probabilitatea ca 6 sa revina din zarul 1 in cadrul sumelor e de 0.07692307692307693
+
+Ex 6:
+Probabilitatea ca toate cele 6 valori sa fie egale 0.004629629629629629
+
+Ex 7:
+ Probabilitatea ca nr de fete sa fie 12: 0.2
+ Probabilitatea sa dam 7: 0.05166666666666665
+ Probabilitatea ca sa dam 7 si apoi sa avem 12 fete: 0.3225806451612903
+ Probabilitatea sa avem 12 fete si sa dam 7: 0.08333333333333333
+
+ Ex 8:
+ probabilitatea ca roll2 sa dea 7 >: 0.05166666666666667
+ Probabilitatea ca roll1 sa dea 7 si roll2 tot 7: 0.059229390681003566
