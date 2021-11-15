@@ -22,8 +22,7 @@ object Test1 {
 			Constant("Al doilea jucator a castigat!")
         }
         else
-            Constant("Este remiza.")
-	)
+            Constant("Este remiza."))
 		//2
         val p1=VariableElimination.probability(castig, "Primul jucator a castigat!")
         println("Probabilitatea ca primul jucator sa castige este de: "+p1)
@@ -39,5 +38,16 @@ object Test1 {
         //daca adunam numarul de valori necesare pentru ca primul jucator sa castige vom vedea ca acesta are 6+2 sanse sa castige. Asta inseamna ca avem o probabilitate de 8/36
         //daca adunam pentru cel de al doilea, vom observa ca avem 1+2+1 sanse de castig. Asta inseamna 4/36
         //deci in urma observatiilor facute ajungem la rezultatul oferit (ca j1 are sanse mai mari de castig)
-	}
+
+        //5
+        
+        // def play(p1Wins: Element[Int], p2Wins: Element[Int], no: Int) : Element[Int] = {
+        //     val total = Apply(zar1, zar2, (i1: Int, i2: Int) => i1 + i2)
+        //     val castig = Chain(total, (t: Int) =>
+        //     if (t == 11 || t == 7)  1
+        //     else if(t == 2 || t == 3 || t == 12)  2
+        //     else 0
+        //     If(p1Wins,p2Wins,no)
+        // }
+    }
 }
