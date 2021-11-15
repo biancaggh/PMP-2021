@@ -30,5 +30,14 @@ object Test1 {
         //3
         val p2=VariableElimination.probability(castig, "Al doilea jucator a castigat!")
         println("Probabilitatea ca al doilea jucator sa castige este de: "+p2)
+        //4
+        //Observam ca rezultatul primei probabilitati este mai mare decat al doilea. Facand un calcul simplu in ceea ce priveste sumele celor 2 zaruri, 
+        //vom observa ca (dupa cum ne spune si cerinta) avem valori intre  2 si 12. Important este cate valori avem de fiecare
+        //vom avea o valoare de 2, doua valori de 3, trei valori de 4, patru valori de 5, cinci valori de 6, sase valori de 7, cinci valori de 8, patru valori de 9, trei valori de 10,
+        //2 valori de 11 si o valoare de 12
+        // (1,1) => 2, (1,2), (2,1) => 3, (1,3),(3,1),(2,2) => 4, (1,4),(4,1),(2,3),(3,2) => 5 .....
+        //daca adunam numarul de valori necesare pentru ca primul jucator sa castige vom vedea ca acesta are 6+2 sanse sa castige. Asta inseamna ca avem o probabilitate de 8/36
+        //daca adunam pentru cel de al doilea, vom observa ca avem 1+2+1 sanse de castig. Asta inseamna 4/36
+        //deci in urma observatiilor facute ajungem la rezultatul oferit (ca j1 are sanse mai mari de castig)
 	}
 }
