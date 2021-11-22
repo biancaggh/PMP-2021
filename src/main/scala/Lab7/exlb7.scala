@@ -41,7 +41,7 @@ object Departments {
 	class Firm(val rd: ResearchAndDevelopment, val hr: HumanResources, val p: Production, val s: Sales, val f: Finance) {
 		val departments = ^^(rd.state, hr.state, p.state, s.state, f.state)
     val health = Chain(departments, (d: (Boolean, Boolean, Boolean, Boolean, Boolean)) =>{
-      val (rd, hr, p, s, f) =d
+      val (rd, hr, p, s, f) = d
       if (rd && hr && p && s && f) Flip(0.9)
       else if(p && f && s) Flip(0.8)
       else if (hr && f) Flip(0.5)
@@ -51,11 +51,11 @@ object Departments {
 
 	def main(args: Array[String]) {
 		val rd = new ResearchAndDevelopment()
-		val hr = new HumanResources()
-		val p = new Production(rd, hr)
-		val s = new Sales(p)
-		val f = new Finance(hr, s)
-		val firm = new Firm(rd, hr, p, s, f)
+    val hr = new HumanResources()
+    val p = new Production(rd, hr)
+    val s = new Sales(p)
+    val f = new Finance(hr, s)
+    val firm = new Firm(rd, hr, p, s, f)
 
     hr.state.observe(true)
     rd.state.observe(true)
