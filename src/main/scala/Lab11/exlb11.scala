@@ -1,3 +1,4 @@
+package Lab11
 import com.cra.figaro.algorithm.factored.VariableElimination
 import com.cra.figaro.algorithm.factored.beliefpropagation.BeliefPropagation
 import com.cra.figaro.algorithm.sampling.Importance
